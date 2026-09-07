@@ -142,6 +142,7 @@ p{margin:0 0 16px;color:var(--ink);}
 }
 .approach-title{display:flex;align-items:center;margin-bottom:12px;}
 .field-row{display:grid;grid-template-columns:120px 1fr;gap:8px 16px;font-size:14.5px;margin-bottom:8px;}
+.field-row.field-row-wide{grid-template-columns:180px 1fr;}
 .field-row b{color:var(--teal-deep);font-weight:700;}
 .field-row span{color:var(--ink);}
 
@@ -212,7 +213,7 @@ table.data th{background:var(--bg-soft);color:var(--teal-deep);text-align:left;p
 table.data td{padding:12px 16px;border-top:1px solid var(--border);font-size:14.5px;color:var(--muted);}
 table.data tr td:first-child{color:var(--ink);font-weight:600;}
 table.data.data-compact td{border-top:none;padding:3px 16px;}
-table.data.data-compact tr td:first-child{white-space:nowrap;}
+table.data.data-compact tr td:first-child{white-space:nowrap;width:180px;}
 
 
 table.roles-table tr td:first-child{white-space:nowrap;width:1%;}
