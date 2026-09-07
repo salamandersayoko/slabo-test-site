@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#036f77"/>
+      <stop offset="1" stop-color="#132241"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="url(#g4)"/>
+  <!-- snowflake crystal -->
+  <g transform="translate(94,96)" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+    <line x1="0" y1="-36" x2="0" y2="36"/>
+    <line x1="-31" y1="-18" x2="31" y2="18"/>
+    <line x1="-31" y1="18" x2="31" y2="-18"/>
+    <line x1="0" y1="-36" x2="-9" y2="-24"/>
+    <line x1="0" y1="-36" x2="9" y2="-24"/>
+    <line x1="0" y1="36" x2="-9" y2="24"/>
+    <line x1="0" y1="36" x2="9" y2="24"/>
+    <line x1="-31" y1="-18" x2="-16" y2="-22"/>
+    <line x1="-31" y1="-18" x2="-22" y2="-6"/>
+    <line x1="31" y1="18" x2="16" y2="22"/>
+    <line x1="31" y1="18" x2="22" y2="6"/>
+    <line x1="-31" y1="18" x2="-16" y2="22"/>
+    <line x1="-31" y1="18" x2="-22" y2="6"/>
+    <line x1="31" y1="-18" x2="16" y2="-22"/>
+    <line x1="31" y1="-18" x2="22" y2="-6"/>
+  </g>
+  <!-- magnifier -->
+  <circle cx="140" cy="146" r="18" fill="#132241" stroke="#ff6b35" stroke-width="5"/>
+  <line x1="153" y1="159" x2="166" y2="172" stroke="#ff6b35" stroke-width="6" stroke-linecap="round"/>
+</svg>

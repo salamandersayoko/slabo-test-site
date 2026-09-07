@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gkey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c1441a"/>
+      <stop offset="1" stop-color="#132241"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="url(#gkey)"/>
+  <!-- key bow (ring) -->
+  <circle cx="72" cy="100" r="40" fill="none" stroke="#ffffff" stroke-width="7"/>
+  <!-- key shaft -->
+  <rect x="108" y="90" width="66" height="20" rx="4" fill="#ffffff"/>
+  <!-- key teeth -->
+  <rect x="150" y="110" width="10" height="18" fill="#ffffff"/>
+  <rect x="166" y="110" width="10" height="26" fill="#ffffff"/>
+  <!-- flame inside the bow, representing heat as the breakthrough key -->
+  <path d="M72 76 C60 90 55 104 64 116 C61 109 66 101 72 97 C70 108 79 112 79 120 C90 113 91 98 81 86 C83 93 78 97 76 91 C80 83 77 79 72 76 Z" fill="#ff6b35"/>
+</svg>
